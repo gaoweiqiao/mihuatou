@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463BEDD51D78077800904E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 463BEDD41D78077800904E3B /* main.m */; };
+		463BEDD81D78077800904E3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 463BEDD71D78077800904E3B /* AppDelegate.m */; };
+		463BEDDB1D78077800904E3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463BEDDA1D78077800904E3B /* ViewController.m */; };
+		463BEDDE1D78077800904E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463BEDDC1D78077800904E3B /* Main.storyboard */; };
+		463BEDE01D78077800904E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463BEDDF1D78077800904E3B /* Assets.xcassets */; };
+		463BEDE31D78077800904E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463BEDE11D78077800904E3B /* LaunchScreen.storyboard */; };
+		463BEDEE1D78077900904E3B /* ceshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 463BEDED1D78077900904E3B /* ceshiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463BEDEA1D78077900904E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463BEDC81D78077800904E3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463BEDCF1D78077800904E3B;
+			remoteInfo = ceshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463BEDD01D78077800904E3B /* ceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		463BEDD41D78077800904E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		463BEDD61D78077800904E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		463BEDD71D78077800904E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		463BEDD91D78077800904E3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		463BEDDA1D78077800904E3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		463BEDDD1D78077800904E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463BEDDF1D78077800904E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463BEDE21D78077800904E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		463BEDE41D78077800904E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463BEDE91D78077900904E3B /* ceshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		463BEDED1D78077900904E3B /* ceshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiUITests.m; sourceTree = "<group>"; };
+		463BEDEF1D78077900904E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463BEDCD1D78077800904E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463BEDE61D78077900904E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463BEDC71D78077800904E3B = {
+			isa = PBXGroup;
+			children = (
+				463BEDD21D78077800904E3B /* ceshi */,
+				463BEDEC1D78077900904E3B /* ceshiUITests */,
+				463BEDD11D78077800904E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463BEDD11D78077800904E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463BEDD01D78077800904E3B /* ceshi.app */,
+				463BEDE91D78077900904E3B /* ceshiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463BEDD21D78077800904E3B /* ceshi */ = {
+			isa = PBXGroup;
+			children = (
+				463BEDD61D78077800904E3B /* AppDelegate.h */,
+				463BEDD71D78077800904E3B /* AppDelegate.m */,
+				463BEDD91D78077800904E3B /* ViewController.h */,
+				463BEDDA1D78077800904E3B /* ViewController.m */,
+				463BEDDC1D78077800904E3B /* Main.storyboard */,
+				463BEDDF1D78077800904E3B /* Assets.xcassets */,
+				463BEDE11D78077800904E3B /* LaunchScreen.storyboard */,
+				463BEDE41D78077800904E3B /* Info.plist */,
+				463BEDD31D78077800904E3B /* Supporting Files */,
+			);
+			path = ceshi;
+			sourceTree = "<group>";
+		};
+		463BEDD31D78077800904E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				463BEDD41D78077800904E3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		463BEDEC1D78077900904E3B /* ceshiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				463BEDED1D78077900904E3B /* ceshiUITests.m */,
+				463BEDEF1D78077900904E3B /* Info.plist */,
+			);
+			path = ceshiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463BEDCF1D78077800904E3B /* ceshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463BEDF21D78077900904E3B /* Build configuration list for PBXNativeTarget "ceshi" */;
+			buildPhases = (
+				463BEDCC1D78077800904E3B /* Sources */,
+				463BEDCD1D78077800904E3B /* Frameworks */,
+				463BEDCE1D78077800904E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceshi;
+			productName = ceshi;
+			productReference = 463BEDD01D78077800904E3B /* ceshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		463BEDE81D78077900904E3B /* ceshiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463BEDF51D78077900904E3B /* Build configuration list for PBXNativeTarget "ceshiUITests" */;
+			buildPhases = (
+				463BEDE51D78077900904E3B /* Sources */,
+				463BEDE61D78077900904E3B /* Frameworks */,
+				463BEDE71D78077900904E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463BEDEB1D78077900904E3B /* PBXTargetDependency */,
+			);
+			name = ceshiUITests;
+			productName = ceshiUITests;
+			productReference = 463BEDE91D78077900904E3B /* ceshiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463BEDC81D78077800904E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MHKJ_TQY;
+				TargetAttributes = {
+					463BEDCF1D78077800904E3B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					463BEDE81D78077900904E3B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 463BEDCF1D78077800904E3B;
+					};
+				};
+			};
+			buildConfigurationList = 463BEDCB1D78077800904E3B /* Build configuration list for PBXProject "ceshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463BEDC71D78077800904E3B;
+			productRefGroup = 463BEDD11D78077800904E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463BEDCF1D78077800904E3B /* ceshi */,
+				463BEDE81D78077900904E3B /* ceshiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463BEDCE1D78077800904E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463BEDE31D78077800904E3B /* LaunchScreen.storyboard in Resources */,
+				463BEDE01D78077800904E3B /* Assets.xcassets in Resources */,
+				463BEDDE1D78077800904E3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463BEDE71D78077900904E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463BEDCC1D78077800904E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463BEDDB1D78077800904E3B /* ViewController.m in Sources */,
+				463BEDD81D78077800904E3B /* AppDelegate.m in Sources */,
+				463BEDD51D78077800904E3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463BEDE51D78077900904E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463BEDEE1D78077900904E3B /* ceshiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463BEDEB1D78077900904E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463BEDCF1D78077800904E3B /* ceshi */;
+			targetProxy = 463BEDEA1D78077900904E3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		463BEDDC1D78077800904E3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463BEDDD1D78077800904E3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		463BEDE11D78077800904E3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463BEDE21D78077800904E3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463BEDF01D78077900904E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		463BEDF11D78077900904E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463BEDF31D78077900904E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqyDXXC.www.ceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		463BEDF41D78077900904E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqyDXXC.www.ceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		463BEDF61D78077900904E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqyDXXC.www.ceshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		463BEDF71D78077900904E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqyDXXC.www.ceshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463BEDCB1D78077800904E3B /* Build configuration list for PBXProject "ceshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463BEDF01D78077900904E3B /* Debug */,
+				463BEDF11D78077900904E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463BEDF21D78077900904E3B /* Build configuration list for PBXNativeTarget "ceshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463BEDF31D78077900904E3B /* Debug */,
+				463BEDF41D78077900904E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		463BEDF51D78077900904E3B /* Build configuration list for PBXNativeTarget "ceshiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463BEDF61D78077900904E3B /* Debug */,
+				463BEDF71D78077900904E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463BEDC81D78077800904E3B /* Project object */;
+}
